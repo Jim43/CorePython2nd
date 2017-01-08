@@ -1,0 +1,1 @@
+print('My name is Jimmy Zhan.\n I am 22 years old and my favourite color is blue.\nNowadays I am trying my best to study python to get a job before my graduate.But I really want to study in universuty and attain a master degree.')
