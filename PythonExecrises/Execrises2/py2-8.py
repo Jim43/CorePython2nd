@@ -1,11 +1,11 @@
 alist=[]
 blist=[]
 atuple=()
-print('请输入五个数字')
+print('请输入五个数字（用回车隔开）')
 for a in range(5):
     b=int(input())
     alist.append(b)#list.append是为list增加元素的方法
-print('请再输入不一样的五个数字')
+print('请再输入不一样的五个数字（用回车隔开）')
 for a in range(5):
     b=int(input())
     blist.append(b)
