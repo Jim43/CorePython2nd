@@ -1,0 +1,5 @@
+1.None\False\所有值为0的数\空对象的bool值是0
+2.进行切片操作时，step如果是负数，开始是0无论这个负数是多少都从－1开始
+3.对象身份比较符 is \ is not \ id(obj)
+4.等级|比较运算符>not>and\or
+5.repr()\cmp()\str()\eval()ps:str()的返回值无法用eval()求值
