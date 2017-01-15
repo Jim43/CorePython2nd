@@ -1,0 +1,13 @@
+1.对于complex类可以有(.real\.imag\.conjugate())三种方法可以调用
+2.强制转换的规则：complex > float > int
+3.floor除法，取比商小的最大整型（用符号//）
+4.取余的方法，商取小于精确值的最大整型的乘积之差
+5.幂运算操作符比左侧操作数的一元操作符优先级低，但是比右边的一元操作符优先级高
+6.位操作符：~ & | ^ >> <<（只适用于整型，会被当作2进制处理）注意负数的取反会+1
+7.数值类bool,int,long,float,complex
+8.num function 绝对值abs(),数据转换corece()[discard in python3.x],商余计算divmod()
+  指数运算pow(x,y,z),四舍五入round(x,y)
+9.int num function hex(),oct(),chr(num)[ASCII数字转换位ASCII字符],ord(chr)[与chr()功能相反],unichr()[返回Unicode字符]
+10.类种_nonzeron_的属性就是bool值，如果没有_nonzeron_()的话默认bool==1
+11.module decimal,array,math/cmath,operator,random
+12.random module randint(x,y),randrange()[参数~range()],uniform()[float],random()[float,0.0~1.0],choice()[seq]
